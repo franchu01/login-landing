@@ -1,0 +1,71 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-madre{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid;
+    padding: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+    box-shadow: 10px;
+}
+
+.container-imagen{
+    margin-bottom: 0;
+}
+
+.titulo{
+    font-size: 25px;
+
+    color: rgb(94, 90, 90) ;
+
+}
+
+.container-inputs{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.email, .password{
+    border: 1px solid;
+    padding: 15px;
+    padding-right: 100px;
+    border-color: rgb(184, 183, 183);
+}
+
+.password{
+    border-top: none;
+    border-radius: 0 0 8px 8px;
+}
+
+.email{
+    border-radius: 8px 8px 0 0;
+}
+
+
+.button, .button2{
+    border: none;
+}
+
+.button{
+    background-color: rgb(4, 4, 82);
+    color: white;
+    font-size: 35px;
+    border-radius: 8px;
+    font-size: 15px;
+    margin: 20px;
+    padding: 15px 108px 15px 108px;
+}
+
+.button2{
+    background-color: white;
+    border: 1px solid;
+    border-color: rgb(184, 183, 183);
+    border-radius: 12px;
+    color: rgb(184, 183, 183);
+    font-size: 12px;
+}
